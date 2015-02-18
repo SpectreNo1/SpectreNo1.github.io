@@ -1,0 +1,70 @@
+body
+{
+	font-size: 16px;
+	font-family: "source sans pro", sans-serif;
+}
+body nav
+{
+	background-color: rgba(5,80,15,.7);
+	position: fixed;
+	top: 1px;
+	right: 1px;
+	left: 1px;
+	text-align: center;
+	padding: 1px;
+}
+body nav ul
+{
+	list-style: none;
+}
+body nav ul li 	
+{
+	display: inline;
+	padding: 40px;
+	margin-top: 0px;
+	color: white;
+}
+body header
+{
+	background: url("../img/background.jpg");
+	color:green;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-bottom: 1px;
+	margin: 0;
+}
+body header figure img 
+{
+	border-radius: 50%;
+	overflow: hidden;
+	border: 3px solid;
+	border-color: green;
+	width: 220px;
+	height: 155px;
+	margin-top: 50px;
+}
+body header h1 a 
+{
+	text-decoration: none;
+	color: white;
+}
+body header figure h3
+{
+	padding-top: 1px;
+}
+body section
+{
+	background: rgb(10,80,15);
+	margin: 0;
+	text-align: center;
+	padding-top: 1px;
+	display: inline-block;
+}
+body section 
+{
+	background: rgb(80,15,10);
+	margin: 0;
+	text-align: center;
+	padding-top: 1px;
+}
